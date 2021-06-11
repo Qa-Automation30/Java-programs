@@ -6,9 +6,15 @@ public class CountChar {
 	public static void main(String[] args) {
 		String str = "Test Automation";
 		countCharacters(str);
+		
+		String str1= "This#string%contains^special*characters&.";   
+		str = str1.replaceAll("[^a-zA-Z0-9]", " ");  
+		System.out.println(str1);  
 	}
 	public static void countCharacters(String str)
 	{
+		String s = str.replaceAll(" +", "");
+		System.out.println(s);
 		System.out.println("Total number of characters->"+str.length());
 		for(int i=0;i<str.length();i++)
 		{
