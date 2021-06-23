@@ -12,6 +12,9 @@ public class EmptyClass {
 		//// add more comments as need to check branch status-4
 		//// add more comments as need to check branch status-5
 		//// add more comments as need to check branch status-6
+		
+		
+		// Git checkout ---to add newFeature
 
 	}
 
